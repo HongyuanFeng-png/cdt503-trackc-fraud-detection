@@ -1,0 +1,44 @@
+{
+  "n_test": 42559,
+  "n_pos_test": 71,
+  "auc_pr": 0.4764665782710282,
+  "auc_roc": 0.9698885982056906,
+  "at_f1_threshold": {
+    "threshold": 0.9778452515602112,
+    "precision": 0.3923076923076923,
+    "recall": 0.7183098591549296,
+    "f1": 0.5074626865671642,
+    "tp": 51,
+    "fp": 79,
+    "fn": 20,
+    "tn": 42409
+  },
+  "at_precision90_threshold": null,
+  "at_cost_threshold": {
+    "threshold": 0.9626567363739014,
+    "precision": 0.3541666666666667,
+    "recall": 0.7183098591549296,
+    "f1": 0.4744186046511628,
+    "tp": 51,
+    "fp": 93,
+    "fn": 20,
+    "tn": 42395
+  },
+  "at_default_0.5": {
+    "threshold": 0.5,
+    "precision": 0.06725468577728776,
+    "recall": 0.8591549295774648,
+    "f1": 0.12474437627811862,
+    "tp": 61,
+    "fp": 846,
+    "fn": 10,
+    "tn": 41642
+  },
+  "cost": {
+    "fn_cost": 20.0,
+    "at_0.5": 1046.0,
+    "at_f1_threshold": 479.0,
+    "at_precision90": null,
+    "at_cost_threshold": 493.0
+  }
+}
